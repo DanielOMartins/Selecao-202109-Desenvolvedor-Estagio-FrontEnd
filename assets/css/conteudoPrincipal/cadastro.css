@@ -1,0 +1,89 @@
+/*Estilo do Cadastro*/
+.cadastro{
+    background-image: url('../../img/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cadastro__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 500px;
+}
+/*Estilo do Conteúdo do Cadastro*/
+.cadastro__conteudo{
+    width: 30%;
+}
+.cadastro__titulo{
+    color: #fdfdfd;
+    font-size: 2.25rem;
+    margin-bottom: 30px;
+}
+.cadastro__titulo span{
+    color: #d72a2a;
+}
+.cadastro__texto{
+    color: #fdfdfd;
+    font-size: 1.5rem;
+}
+/*Estilo do Formulário do Cadastro*/
+.cadastro__form{
+    width: 40%;
+}
+.cadastro__dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+.cadastro__inputs-box{
+    display: flex;
+    flex-direction: column;
+
+    width: 45%;
+}
+.cadastro__inputs-boxEmail{
+    display: flex;
+    flex-direction: column;
+}
+.cadastro__lbl{
+    color: #fdfdfd;
+    margin-bottom: 5px;
+}
+.cadastro__input{
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+}
+.cadastro__lbl-email{
+    color: #fdfdfd;
+    margin-bottom: 5px;
+}
+.cadastro__input-email{
+    margin-bottom: 20px;
+    padding: 10px 5px;
+
+    border-radius: 5px;
+    border: none;
+}
+.cadastro__btn{
+    color: #fdfdfd;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    background: transparent;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}

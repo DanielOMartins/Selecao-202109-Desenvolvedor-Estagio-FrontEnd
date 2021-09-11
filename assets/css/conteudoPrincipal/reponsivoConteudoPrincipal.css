@@ -1,0 +1,128 @@
+@media screen and (max-width: 768px){
+    /*Conteudo Principal Banner*/
+    .banner__slider{
+        height: auto;
+    }
+    .banner__box{
+        flex-direction: column;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .banner__btn-orcamento{
+        width: 100%;
+    }
+
+    /*Conteudo Principal Opções*/
+    .opcoes{
+        flex-direction: column;
+    }
+    .opcoes__grupo{
+        width: 100%;
+    }
+
+    /*Conteudo Principal Produtos*/
+    .produtos{
+        height: auto;
+        padding: 20px 0;
+    }
+    .produtos__itens{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .produtos__btn-seta{
+        display: none;
+    }
+    .produtos__box{
+        margin: 10px;
+        width: 100%;
+    }
+    .produtos__preco-parcelado{
+        width: 100%;
+    }
+
+    /*Conteudo Principal WhatsApp*/
+    .whatsapp{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .whatsapp__box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .whatsapp__logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .whatsapp__logo-img{
+        margin: 0;
+    }
+    .whatsapp__conteudo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .whatsapp__btn{
+        width: 100%;
+    }
+
+    /*Conteudo Principal WhatsApp*/
+    .cadastro__box{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+        padding: 20px;
+    }
+    .cadastro__conteudo{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }   
+    .cadastro__form{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    /*Conteudo Principal Banner*/
+    .banner__btn-orcamento{
+        width: 50%;
+    }
+
+    /*Conteudo Principal Opções*/
+    .opcoes__grupo{
+        padding: 0 2px;
+    }
+
+    /*Conteudo Principal Produtos*/
+    .produtos{
+        height: auto;
+        padding: 20px 0;
+    }
+    .produtos__itens{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .produtos__box{
+        margin: 10px;
+        width: 50%;
+    }
+    .produtos__preco-parcelado{
+        width: 100%;
+    }
+
+    /*Conteudo Principal WhatsApp*/
+    .cadastro__conteudo{
+        width: 40%;
+    }
+    .cadastro__form{
+        width: 60%;
+    }
+}

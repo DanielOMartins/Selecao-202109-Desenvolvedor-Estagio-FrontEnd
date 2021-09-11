@@ -1,0 +1,80 @@
+/*Estilo do Endereço e os Contatos*/
+.endereco{
+    color: white;
+    background: #272425;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.endereco__logo{
+    margin-top: 50px;
+    
+    font-size: 2rem;
+}
+.endereco__conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: calc(30px - 10px);
+    margin-bottom: 50px;
+}
+/*Estilo dos Itens com endereço e contatos*/
+.endereco__menu-itens{
+    width: 15%;
+}
+.endereco__itens{
+    color: #bbbbbb;
+    margin: 15px 0;
+}
+.endereco__redes{
+    width: 15%;
+    margin-right: 50px;
+}
+.endereco__redes-sociais{
+    color: #ffffff;
+    font-weight: bold;
+
+    margin-top: 30px;
+}
+.endereco__redes-img{
+    margin-top: 10px;
+}
+.face{
+    margin-right: 15px;
+}
+
+.endereco__loja{
+    width: 35%;
+}
+.endereco__loja-titulo{
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+.endereco__loja-conteudo{
+    margin: 10px 0;
+}
+.endereco__loja-telefone{
+    color: #f6dc8d;
+    font-size: .9rem;
+
+    margin-bottom: 10px;
+
+    background-image: url('../../img/rodape/logoTel.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.endereco__loja-whats{
+    color: #f6dc8d;
+    font-size: .9rem;
+
+    margin-bottom: 10px;
+
+    background-image: url('../../img/rodape/logoWhats.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}

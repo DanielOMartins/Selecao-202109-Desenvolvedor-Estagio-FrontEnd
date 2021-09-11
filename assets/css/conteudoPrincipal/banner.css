@@ -1,0 +1,52 @@
+/*Estilo do Banner*/
+.banner{
+    background-image: url('../../img/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .1s step-end;
+}
+.banner__slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 400px;
+}
+.banner__btn-seta{
+    margin: 0 20px;
+    background: transparent;
+    border: none;
+}
+/*Estilo do Box de conteúdo do Banner*/
+.banner__box{
+    text-align: right;
+    color: #fdfdfd;
+}
+.banner__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+.banner__conteudo{
+    margin-bottom: 20px;
+}
+.banner__conteudo-orcamento{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.banner__btn-orcamento{
+    width: 25%;
+    padding: 10px;
+
+    background: #f6dc8d;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 1.25rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.banner__btn-orcamento:hover{
+    background: #fad053;
+}

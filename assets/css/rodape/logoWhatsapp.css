@@ -1,0 +1,8 @@
+/*Estilo da logo do WhatsApp no rodapé*/
+.logoWhatsapp__box{
+    background: #272425;
+}
+.logoWhats__img{
+    margin-left: 142px;
+    padding-bottom: 20px;
+}

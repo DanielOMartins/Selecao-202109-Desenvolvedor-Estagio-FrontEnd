@@ -1,0 +1,46 @@
+/*Estilo das Opções*/
+.opcoes{
+    display: flex;
+}
+.opcoes__grupo{
+    width: 25%;
+    text-align: center;
+}
+
+.opcoes__conteudo{
+    margin: 20px 0;
+
+    font-size: 1.2rem;
+    color: #f6dc8d;
+}
+.opcoes__btn{
+    margin-bottom: 30px;
+
+    background: transparent;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    padding: 10px 15px;
+}
+.opcoes__btn:hover{
+    color: #f6dc8d;
+    border: 1px solid #f6dc8d;
+}
+
+/*Cor de cada Opção*/
+.cor-1{
+    background: #272425;
+}
+.cor-2{
+    background: #232122;
+}
+.cor-3{
+    background: #1d1b1c;
+}
+.cor-4{
+    background: #161515;
+}

@@ -1,0 +1,46 @@
+/*Estilo do Menu de Navegação*/
+.nav{
+    background: #db0000;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+
+    transition: all .3s;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu__box{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu__logo{
+    color: #fdfdfd;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.menu__buscar{
+    background: none;
+    border: none;
+}
+.menu__buscar-input{
+    border: none;
+    border-radius: 5px;
+    float: right;
+}

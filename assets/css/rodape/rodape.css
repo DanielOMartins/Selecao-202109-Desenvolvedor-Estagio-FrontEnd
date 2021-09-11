@@ -1,0 +1,74 @@
+/*Estilo do Rodapé*/
+.rodape{
+    background: #000000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+}
+/*Estilo do Botão de subir para o topo da página*/
+.rodape__subir{
+    width: 20%;
+    height: 100%;
+
+    margin-bottom: 10px;
+}
+.rodape__btn-subir{
+    height: 100%;
+    width: 15%;
+    margin-left: 150px;
+    margin-bottom: 200px;
+
+    background: #db0000;
+    border: none;
+}
+/*Estilo do conteúdo com logos no rodapé*/
+.rodape__conteudo{
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape__textos{
+    color: #8b8c8c;
+
+    width:  70%;
+    display: flex;
+    justify-content: space-between;
+}
+.rodape__empresa{
+    padding-top: 3px;
+}
+.rodape__texto span{
+    text-decoration: underline;
+}
+/*Estilo do Chat no rodapé*/
+.rodape__chat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+
+    background: #86bc42;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.rodape__chat-texto{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.rodape__btn-chat{
+    background: transparent;
+    border: none;
+    margin-left: 30px;
+
+    color: #ffffff;
+}

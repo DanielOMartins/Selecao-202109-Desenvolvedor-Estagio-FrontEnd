@@ -1,0 +1,57 @@
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #ebebeb;
+
+    height: 600px;
+}
+
+.produtos__btn-seta{
+    background:transparent;
+    border: none;
+}
+.produtos__titulo{
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+.produtos__itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 20%;
+}
+.produtos__img{
+    margin-bottom: 10px;
+}
+.produtos__nome{
+    margin-bottom: 20px;
+
+    color: #565656;
+}
+.produtos__preco{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.produtos__preco-parcelado{
+    color: #a9a9a9;
+    font-family: 'Open Sans', sans-serif;
+}
+.produto__promocao{
+    color: #a9a9a9;
+    text-decoration: line-through;
+    font-family: 'Open Sans', sans-serif;
+}

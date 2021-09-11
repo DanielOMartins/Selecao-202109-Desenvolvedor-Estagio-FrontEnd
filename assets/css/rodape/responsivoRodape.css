@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px){
+    /*Rodapé Endereço*/
+    .endereco__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .endereco__conteudo{
+        flex-direction: column;
+    }
+    .endereco__menu-itens{
+        width: 100%;
+
+        text-align: center;
+    }
+    .endereco__redes{
+        margin: 0;
+        width: 100%;
+
+        text-align: center;
+    }
+    .endereco__loja{
+        width: 100%;
+        margin: 10px 0;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Rodapé Whatsapp*/
+    .logoWhatsapp__box{
+        display: flex;
+        justify-content: center;
+    }
+    .logoWhats__img{
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Rodapé*/
+    .rodape{
+        height: auto;
+        flex-direction: column;
+    }
+    .rodape__btn-subir{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .rodape__conteudo{
+        flex-direction: column;
+    }
+    .rodape__textos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        padding: 20px 0;
+    }
+    .rodape__empresa{
+        width: 30%;
+        padding-top: 0;
+    }
+    .rodape__chat{
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .endereco__box{
+        margin: 0 20px;
+    }
+    /*Rodapé Whatsapp*/
+    .logoWhats__img{
+        margin-left: 80px;
+    }
+    /*Rodapé*/
+    .rodape__btn-subir{
+        width: 30%;
+        margin-left: 80px;
+    }
+    .rodape__conteudo{
+        width: 80%;
+    }
+    .rodape__textos{
+        margin-right: 20px;
+    }
+}
